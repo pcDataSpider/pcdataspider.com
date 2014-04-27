@@ -1,0 +1,9 @@
+page-description: Data Spider module product page
+pic-med: /assets/images/PropDAQ-proto-BNC-800.jpg
+pic-large: /assets/images/PropDAQ-proto-BNC-800.jpg
+datasheet: /assets/datasheets/Data-Spider-spec-sheet.pdf
+buybtn: https://services.mercantec.com/js/AddToCartJS.aspx?m=27837&p1=201098&uq=Quantity%3a&d=aqd
+     
+short-description: Data Spider Module with BNC connectors
+description:    |
+                The Data Spider is a module that allows interfacing electrical instruments or devices with a computer. It can take up to 4 analog electrical signals and up to 4 digital electrical signals , converts them into digital data, and sends that data to a computer. It can also receive commands from a computer to generate up to 2 analog electrical signals and up to 4 digital electrical signals. Connections to devices or instruments are made by wires with BNC connectors.

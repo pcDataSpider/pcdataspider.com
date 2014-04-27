@@ -1,0 +1,21 @@
+{% include "shared/header" %}
+<body>
+{% include "shared/navbar" %}
+{% include "shared/minicart" %}
+
+	{% for product in children %}
+	
+	<div class="product_tile">
+	  <h2><a href={{product.permalink}}>{{product.name}}</a></h2>
+	  <img src={{product.pic-med}} alt="(product picture)" width=300px>
+	  <p>{{product.short-descr}}</p>
+
+	  <div class="product_pricing">
+		  <script language="javascript" src={{product.buybtn}}></script>
+	  </div>
+	</div>
+	{% endfor %}
+	
+	
+    </body>
+</html>
