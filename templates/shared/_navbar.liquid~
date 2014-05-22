@@ -1,10 +1,10 @@
 <div id="header">
 	<div id="logo-block">
-	<img src={{logo}}>
+	<img src={{logo}} href='/index/'>
 	</div>
 
 	<ul id="navbar">
-		<li class="{% if name == "Index" %}current{% else %}navlink{% endif %}"><a href={{nav.permalink}}>Home</a></li>
+		<li class="{% if name == "Index" %}current{% else %}navlink{% endif %}"><a href=/index/>Home</a></li>
 	{% for nav in navigation %}
 	<li class="{% if name == nav.name or parent.name == nav.name %}current{% else %}navlink{% endif %}"><a href={{nav.permalink}}>{{nav.name}}</a></li>
 	{% endfor %}

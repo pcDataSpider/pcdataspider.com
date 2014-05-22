@@ -4,16 +4,16 @@
 {% include "shared/minicart" %}
         <div id="main">
 		<h2>{{name}}</h2>
-		<img width=300 class=imagebox,floatright src={{pic-large}}>
+		<img width=300 class="imagebox floatright" src={{pic-large}}>
 		<p>{{description}}</p>
 
 		<ul class=clear>
 	     		{{specs}}
 		</ul>
 
-		<a href={{datasheet}} target="_blank">Full Datasheet</a>
+		<a href={{datasheet}} target="_blank"><p>Full Datasheet</p></a>
 		<script language="javascript" src={{buybtn}}></script>
-		<div>
+		<div class="center">
 			<a href={{datasheet}} target="_blank">Datasheet</a> | 
 			<a href=https://www.github.com/pcDataSpider target="_blank">Application</a> | 
 			<a href=https://www.github.com/pcDataSpider/Firmware target="_blank">Firmware</a> | 

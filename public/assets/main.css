@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 #logo-block {
-    margin-left: 10%;
+    margin-left: 5%;
     float: left;
     font-family: sans-serif;
     font-size: 30px;
@@ -62,6 +62,12 @@ body {
 .clear {
     clear: both;
 }
+.center {
+    min-width: 50px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
 .navitem {
     margin-left: 1em;
     float: inherit;
@@ -84,15 +90,17 @@ body {
 .product_tile {
     margin: 1% 1%;
     border: 10px 10px;
-    border-radius: 10px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #649664;
     width: 250px;
     min-height: 300px;
     display: block;
     float: left;
     background-color: #fff;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .5);
 }
 .product_tile img {
     display: block;
