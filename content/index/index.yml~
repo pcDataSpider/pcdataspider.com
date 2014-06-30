@@ -2,10 +2,14 @@ page-description: Home page for PC Data Spider Modules
 title: Welcome
 body:  |
 
-       <img width='300' class='floatright imagebox' src='/assets/images/PropDAQ-proto-TB-800.jpg'>
+       <img width='430' class='floatright imagebox' src='/assets/images/PropDAQ-proto-TB-800.jpg'>
 
-       <div><p>This is the home for the Data Spider data acquisition module.</p>
+       <div><p>This is the home for the DataSpider data acquisition module.</p>
+       
+       The DataSpider acts as an interface between a computer and other instruments or sensors.</p>
 
 
-       <p>The Data Spider module incorporates a programmable controller (<a href='http://www.parallax.com/microcontrollers/propeller'>Propeller</a> from Parallax) along with a dedicated circuitry to process the different electrical signals and communicate with a computer via a USB link. The module is pre-programmed with a standard firmware and a standard set of instructions, but can also be custom-programmed to perform specific functions or respond to specific commands. The module also comes with a simple data acquisition software that can run on almost any personal computer. This software is written in Python and is offered as Open Source Software. All code can be found on our github site, <a href='https://github.com/pcDataSpider'>here</a>.</p></div>
+       <p>The Data Spider module incorporates a programmable controller (<a href='http://www.parallax.com/microcontrollers/propeller'>Propeller</a> from Parallax) along with a dedicated circuitry to process the different electrical signals and communicate with a computer via a USB link. The module is pre-programmed with a standard firmware and a standard set of instructions, but can also be custom-programmed to perform specific functions or respond to specific commands. The module also comes with a simple data acquisition software written in Python that can run on almost any personal computer.
+       </p>
+       The DataSpider module and its associated software is offered as Open Source. All code can be found on our github site, <a href='https://github.com/pcDataSpider'>here</a>. We are currently working on releasing as well all documentation and design files for the hardware.</p></div>
        <div class='clear'></div>
